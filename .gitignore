@@ -1,0 +1,13 @@
+build/
+out/
+*.png
+!tests/golden/*.png
+!docs/images/*.png
+.DS_Store
+compile_commands.json
+.cache/
+__pycache__/
+.claude/settings.local.json
+docs/
+!assets/*.png
+!images/*.png

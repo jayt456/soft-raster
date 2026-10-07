@@ -1,0 +1,12 @@
+timestamp,commit,dirty,scene,triangles,width,height,config,frames,median_ms,p95_ms,vertex_ms,raster_ms,cpu,perf_cores,eff_cores,power,compiler
+2026-10-07T03:07:22,none,0,"bunny",69451,1280,720,"scalar",200,4.5078,5.0548,0.1044,4.2935,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:25,none,0,"bunny",69451,1280,720,"scalar",200,4.4902,5.0369,0.1022,4.2821,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:26,none,0,"spot",5856,1280,720,"scalar",200,1.5661,1.8428,0.0091,1.4579,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:26,none,0,"cube",12,1280,720,"scalar",200,1.5178,1.7144,0.0001,1.4146,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:27,none,0,"plane",2,1280,720,"scalar",200,6.1189,6.3934,0.0000,6.0098,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:29,none,0,"bunny",69451,1920,1080,"scalar",200,7.1774,7.6903,0.1069,6.8161,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:30,none,0,"spot",5856,1920,1080,"scalar",200,3.1939,3.7317,0.0093,2.9381,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:31,none,0,"cube",12,1920,1080,"scalar",200,3.4714,3.7863,0.0001,3.2251,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:34,none,0,"plane",2,1920,1080,"scalar",200,13.7996,14.2449,0.0000,13.5397,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:42,none,0,"bunny",69451,1280,720,"scalar",200,4.9501,5.8399,0.1054,4.7264,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"
+2026-10-07T03:08:43,none,0,"bunny",69451,1280,720,"scalar",200,5.1546,6.2787,0.1065,4.9236,"Apple M1 Pro",6,2,AC,"Apple LLVM 17.0.0 (clang-1700.0.13.5)"

@@ -1,0 +1,33 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "release",
+      "displayName": "Release (-O3), used for all benchmarks",
+      "binaryDir": "${sourceDir}/build/release",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release", "SR_SANITIZE": "none" }
+    },
+    {
+      "name": "debug",
+      "displayName": "Debug with AddressSanitizer + UndefinedBehaviorSanitizer",
+      "binaryDir": "${sourceDir}/build/debug",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug", "SR_SANITIZE": "address" }
+    },
+    {
+      "name": "tsan",
+      "displayName": "Debug with ThreadSanitizer (for the threaded code)",
+      "binaryDir": "${sourceDir}/build/tsan",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug", "SR_SANITIZE": "thread" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "release", "configurePreset": "release" },
+    { "name": "debug", "configurePreset": "debug" },
+    { "name": "tsan", "configurePreset": "tsan" }
+  ],
+  "testPresets": [
+    { "name": "release", "configurePreset": "release", "output": { "outputOnFailure": true } },
+    { "name": "debug", "configurePreset": "debug", "output": { "outputOnFailure": true } },
+    { "name": "tsan", "configurePreset": "tsan", "output": { "outputOnFailure": true } }
+  ]
+}
